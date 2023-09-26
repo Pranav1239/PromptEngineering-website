@@ -1,11 +1,18 @@
+"use client"
 import {RiComputerLine} from "react-icons/ri"
 import {MdGamepad} from "react-icons/md"
 import {SiGamejolt} from "react-icons/si"
 import {FaInstagram, FaTwitter} from "react-icons/fa"
 import {FaGithub} from "react-icons/fa"
+import { motion } from "framer-motion";
 export default function Home2() {
   return (
-    <div className="bg-gray-950 mt-12">
+    <motion.div
+    initial={{ x: 0, y: 0, opacity: 0 }}
+    animate={{ x: 0, y: 0, opacity: 1 }}
+    transition={{ duration: 3 }}
+    className="bg-gray-950 mt-12"
+    >
         <div className="flex justify-start">
         <hr className="w-96" />
         </div>
@@ -41,6 +48,6 @@ export default function Home2() {
         </div>  
         <br />
         <div className=""></div>
-    </div>
+    </motion.div>
   )
 }

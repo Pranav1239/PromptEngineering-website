@@ -8,7 +8,7 @@ If you wanted to run this site in production, you should install modules then bu
 
     npm install
     npm run build
-    npm start
+    npm run dev
 
 You should run `npm run build` again any time you make changes to the site.
 
