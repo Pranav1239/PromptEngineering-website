@@ -28,8 +28,8 @@ export default function Home1() {
         animate={{ x: 0, y: 0, opacity: 1 }}
         transition={{ duration: 1.2 }}
       >
-        <div>
-          <h1 className="text-5xl lg:text-7xl my-4 font-bold cursor-default">
+        <div className="my-6 ">
+          <h1 className="text-5xl lg:text-7xl font-bold cursor-default">
             PROMPT <span className="text-purple-600">ENGINEERING</span>
           </h1>
           <p className="text-lg p-3 font-bold cursor-default">
