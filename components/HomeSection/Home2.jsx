@@ -2,8 +2,6 @@
 import {RiComputerLine} from "react-icons/ri"
 import {MdGamepad} from "react-icons/md"
 import {SiGamejolt} from "react-icons/si"
-import {FaInstagram, FaTwitter} from "react-icons/fa"
-import {FaGithub} from "react-icons/fa"
 import { motion } from "framer-motion";
 export default function Home2() {
   return (
@@ -33,19 +31,6 @@ export default function Home2() {
         <div className="flex justify-end">
         <hr className="w-96" />
         </div>
-        <section className="mt-8">
-            <div>
-            <h1 className="text-3xl text-center lg:text-5xl font-extrabold"><span className="text-purple-600">Prompt engineering</span> makes your work easier. This website was 50% made with ChatGPT and Bard, which is useful.</h1>
-            </div>
-        </section>
-        <div className="mt-4">
-            <h1 className="text-3xl text-center lg:text-4xl font-extrabold">Contact<span className="text-purple-600">Me</span></h1>
-        </div>
-        <div className=" mt-4 flex justify-center items-center">
-        <p className="mx-2 hover:text-purple-600"><FaInstagram size={30} /></p>
-        <p className="mx-2 hover:text-purple-600"><FaGithub size={30} /></p>
-        <p className="mx-2 hover:text-purple-600"><FaTwitter size={30} /></p>
-        </div>  
         <br />
         <div className=""></div>
     </motion.div>

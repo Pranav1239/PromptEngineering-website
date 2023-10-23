@@ -1,11 +1,11 @@
 import Image from "next/image";
-import LLMIMG from '../../assets/page-1.jpg'
+import LLMIMG from "../../assets/page-1.jpg";
 import Link from "next/link";
 export default function page() {
   return (
     <div className="bg-gray-950">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-      <section>
+        <section>
           <div>
             <h1 className="text-4xl text-center font-extrabold leading-tight text-white">
               Documentation
@@ -74,21 +74,31 @@ export default function page() {
           </h1>
 
           <p className="mt-4 text-lg text-white">
-          LLM in prompt engineering stands for large language model. LLMs are a type of artificial intelligence (AI) model that can generate and understand human language. They are trained on massive datasets of text and code, which gives them a broad understanding of the world and the ability to generate text in a variety of different formats.
-          <br />
-          <br />
-          Prompt engineering is the process of designing prompts that guide LLMs to generate desired outputs. A good prompt engineer can help organizations get the most out of their LLM AI models by designing prompts that produce high-quality and relevant results.
+            LLM in prompt engineering stands for large language model. LLMs are
+            a type of artificial intelligence (AI) model that can generate and
+            understand human language. They are trained on massive datasets of
+            text and code, which gives them a broad understanding of the world
+            and the ability to generate text in a variety of different formats.
+            <br />
+            <br />
+            Prompt engineering is the process of designing prompts that guide
+            LLMs to generate desired outputs. A good prompt engineer can help
+            organizations get the most out of their LLM AI models by designing
+            prompts that produce high-quality and relevant results.
           </p>
         </div>
         <div className="mt-4 mb-4">
-          <Image
-          src={LLMIMG}
-          alt="Image Not found"
-          />
+          <Image src={LLMIMG} alt="Image Not found" />
         </div>
         <div>
-        <h2 className="mt-2 mb-4 text-2xl font-medium leading-tight text-white">
-            Check Some Examples <Link href={"/Examples"} className="text-blue-500 underline text-xl">Click here</Link>
+          <h2 className="mt-2 mb-4 text-2xl font-medium leading-tight text-white">
+            Check Some Examples{" "}
+            <Link
+              href={"/Examples"}
+              className="text-blue-500 underline text-xl"
+            >
+              Click here
+            </Link>
           </h2>
         </div>
         <hr />
@@ -136,6 +146,16 @@ export default function page() {
           LLMs effectively. By carefully crafting prompts, you can influence the
           model to produce more accurate, informative, and creative results.
         </p>
+        <div>
+        <h2 className="mt-8 text-2xl font-bold leading-tight">
+          <span className="text-purple-600">Learn ChatGPT from Documentation </span>
+          <Link 
+          href={"https://platform.openai.com/docs/introduction/overview"} 
+          target="_blank"
+          className="text-blue-700 underline cursor-pointer"
+          >Click here</Link>
+        </h2>
+        </div>
       </div>
     </div>
   );
